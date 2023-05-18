@@ -1,0 +1,25 @@
+// .json or .jsonc or .ds
+
+{
+    "menu-args": [],
+    "list": [
+        {
+            "format": "exit",
+            "commands-format": [],
+            "command": null,
+            "script":null,
+            "is-generator": false
+        },
+        {
+            "format": "aa",
+            "commands-format": [],
+            "command": {
+                "coommand":["kitty"],
+                "stdin": null,
+                "stdout": null
+            },
+            "script":"examples/test.jsonc",
+            "is-generator": false
+        }
+    ]
+}
